@@ -6,6 +6,18 @@ meta.foundation-version {
   font-family: "/5.3.3/";
 }
 
+ol {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul {
+  list-style: square;
+}
+
 /* line 320, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen/";
@@ -2138,10 +2150,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* line 31, ../scss/_course.scss */
-ul {
-  list-style: none;
-}
+
 
 /* line 35, ../scss/_course.scss */
 .nav {
