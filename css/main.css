@@ -2,6 +2,10 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,800);
 @import url(//fonts.googleapis.com/css?family=Raleway:200,300,400,600);
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.highlight{
+  background-color: #efefef;
+}
+
 meta.foundation-version {
   font-family: "/5.3.3/";
 }
