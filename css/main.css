@@ -4,6 +4,7 @@
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .highlight{
   background-color: #efefef;
+  margin-left: 2em;
 }
 
 meta.foundation-version {
@@ -2145,8 +2146,9 @@ body {
 
 /* line 22, ../scss/_course.scss */
 a {
-  color: #144057;
+  color: #FF500A;
   text-decoration: none;
+  font-weight: 600;
 }
 
 /* line 27, ../scss/_course.scss */
