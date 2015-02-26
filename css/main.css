@@ -2155,6 +2155,10 @@ a {
   font-weight: 400;
 }
 
+.course_title a{
+  font-weight: 200;
+}
+
 /* line 27, ../scss/_course.scss */
 a:hover {
   text-decoration: underline;
