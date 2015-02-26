@@ -2151,6 +2151,10 @@ a {
   font-weight: 600;
 }
 
+.course_header a{
+  font-weight: 400;
+}
+
 /* line 27, ../scss/_course.scss */
 a:hover {
   text-decoration: underline;
