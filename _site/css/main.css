@@ -1,6 +1,20 @@
 @import url(//fonts.googleapis.com/css?family=Maven+Pro:400,500);
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,800);
 @import url(//fonts.googleapis.com/css?family=Raleway:200,300,400,600);
+pre{
+  display: inline;
+
+}
+
+li>ol, li>ul{
+  padding-left: 40px;
+}
+
+td{
+  background-color: #eeeeee;
+  padding-left: 5px;
+}
+
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .highlight{
   background-color: #efefef;
@@ -2153,6 +2167,10 @@ a {
 
 .course_header a{
   font-weight: 400;
+}
+
+.course_title a{
+  font-weight: 200;
 }
 
 /* line 27, ../scss/_course.scss */
