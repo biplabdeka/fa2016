@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "MP 1.0: One Web Page To Rule Them All"
+title: "Graduate Research Paper"
 due: Feb 18, 11.59PM CST
 <!-- permalink: lab1.html -->
 ---
