@@ -1,0 +1,64 @@
+---
+layout: default
+title: "MP 1.0: One Web Page To Rule Them All"
+due: Feb 18, 11.59PM CST
+<!-- permalink: lab1.html -->
+---
+### Due Date - 11.59pm on February 18, 2015
+
+###Overview
+In this programming assignment, you will design and impelement a single-page website with specified functionality and formatting using only HTML, SCSS, and Javascript. The content of the website is up to you. For example, the subject can be a company/organization, a product, or simply a personal/portfolio page. This assignment will give you first-hand experience with HTML5 (e.g. header, canvas, video), CSS3/SASS (e.g. use of webfonts, animations, layout), and Javascript/jQuery.
+
+Refer to Lab 1 for setting up a development environment and a server for this assignment. 
+
+###Required Features 
+Your webpage will have to implement the features listed below. Note that the examples are only meant to illustrate the features. You do not have to make you webpage look similar to the examples. You just have to incorporate that feature in some form. 
+
+1. Layout: All content must be laid out in a single page with full-width horizontal stripes/sections including a header and a footer - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/2.png)
++	Sticky Navbar: A top navigation bar that sticks to the top of the window when scrolling [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/3.gif)
++	Position Indicator: Indicator of the current reading position visible in the navigation bar (see above gif for example)
++ 	Navbar Resizing: Navigation bar must be larger when users are at the top of the page. As users start scrolling down, it should resize and become smaller - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/4.gif)
++	Smooth Scrolling: Smooth scrolling when navigating to a different section using the navigation bar [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/5.gif)
++	Carousel: A section with a carousel/slider using a minimum of three slides. It should include the navigation arrows on the side - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/6.gif)
++  	Multi-column layout: A section with Multi-column content - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/8.png)
++	Centering: Content in each horizontal stripe/section must be horizontally centered. At least one element on the page must be vertically centered. 
++	Background Image: A section which uses a fixed-position background image - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/9.gif)
++	Modal: A section which uses modal windows with additional content - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/10.gif)
++	Video: Embedded video using HTML5 video tag - [Example](http://courses.engr.illinois.edu/cs498rk1/images/mp1/11.gif)
++	CSS3 Animations: At least one use of CSS3 animations (e.g. fade in/out, transitions)
++	At least one use of scalable vector icons through CSS (e.g. FontAwesome)
++	Inclusion of social media icons
++	<span style="color: red"> Extra Credit: </span>create a original [favicon](http://en.wikipedia.org/wiki/Favicon) for your page. The best Llama favicon will be used for the class webpage.
+
+###Rules
+1.	This is an individual assignment. No collaboration is permitted.
++   It is not permitted to copy/paste code that is not your own. You are, however, free to look at different code sources for inspiration and clarity. All sources (code as well as reading material) that you reference to complete this assignment must be declared in the submission.
++	There must be no use of content management systems, or frameworks (e.g. Bootstrap, Pure CSS, Foundation, etc.)
++	The only library that is allowed is jQuery
++	HTML tables cannot be used for layout	
++	SASS/SCSS principles must be utilized (e.g. mix-ins, variables). Technically you can write plain CSS in SCSS files. That is not what we want.
++ If you think something you're doing might not be acceptable, please ask on Piazza.
+
+###Grade Breakdown
+
+1. 	Layout and Overall Design - 20%
++ Code (follows HTML5, SASS/SCSS, Javascript/jQuery best practices) - 15%
++	Sticky Navbar - 1%
++	Position Indicator - 5%
++ Navbar Resizing - 5%
++	Smooth Scrolling - 10%
++	Carousel - 10%
++ Multi-column layout - 5%
++	Centering - 2%
++	Background Image - 1%
++	Modal - 10%
++	Video - 2%
++	CSS3 Animations - 10%
++	Scalable vector icons - 2%
++	Inclusion of social media icons - 2%
++	<span style="color: red"> Extra Credit: 2% </span>
+
+###Submission Details
+1. Use [this form](https://docs.google.com/forms/d/16YX0p9wM1VhgCovXC-no3jsk9l2IuUYTeTOygm_WOiI/viewform?usp=send_form) to submit your MP.
+2. Make sure you set your Github repo to public right after the deadline. 
+
