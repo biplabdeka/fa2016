@@ -5,7 +5,7 @@ due: Feb 18, 11.59PM CST
 draft: true
 <!-- permalink: lab1.html -->
 ---
-### Due Date - 11.59pm on February 18, 2015
+### Due Date - Coming soon
 
 ###Overview
 Your goal is to **write a paper comparing three (3) technologies from the same area**. The ultimate motivation for this assignment should be a use case where a web development novice can determine exactly which technology to use for their project by reading your paper.
@@ -19,7 +19,7 @@ Below is a list of technologies that you can write about:
 4. Mobile Web Frameworks
 5. Real Time Web APIs
 
-Below is a non-exhaustive list of topics you can use for your paper:
+For whatever technology you pick, you paper should compare the technologies along multiple dimensions (such as shown below) that makes it easier for a novice to decide what is a good option for their use case.
 
 ###Potential topics
 1. Compare and contrast list of features
