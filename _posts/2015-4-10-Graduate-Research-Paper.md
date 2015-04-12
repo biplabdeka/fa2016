@@ -2,7 +2,6 @@
 layout: default
 title: "Graduate Research Paper"
 due: Feb 18, 11.59PM CST
-draft: true
 <!-- permalink: lab1.html -->
 ---
 ### Due Date - Coming soon
