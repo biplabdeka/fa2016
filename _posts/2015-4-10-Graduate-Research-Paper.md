@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Graduate Research Paper"
-due: Feb 18, 11.59PM CST
+due: May 13 2015, 11.59PM CST
 <!-- permalink: lab1.html -->
 ---
-### Due Date - Coming soon
+### Due Date - May 13, 2015, 11.59PM CST
 
 ###Overview
 Your goal is to **write a paper comparing three (3) technologies from the same area**. The ultimate motivation for this assignment should be a use case where a web development novice can determine exactly which technology to use for their project by reading your paper.
@@ -35,7 +35,3 @@ For whatever technology you pick, you paper should compare the technologies alon
 
 ####Presentation
 + 15 minutes
-
-
-
-
