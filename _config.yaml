@@ -1,7 +1,7 @@
-name: "CS498rk: Art and Science of Web Programming, Spring 2015"
+name: "CS498rk: Art and Science of Web Programming, Spring 2016"
 markdown: redcarpet
 redcarpet:
   extensions: ["tables", "strikethrough"]
-baseurl: /sp2015
+baseurl: /sp2016
 highlighter: pygments
 permalink: "/:title"
