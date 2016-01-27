@@ -1207,6 +1207,13 @@ h6 {
     color: #cacaca;
     line-height: 0; }
 
+h3 {
+  color: #144057;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
 h1 {
   font-size: 1.5rem; }
 
