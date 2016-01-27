@@ -1,2 +1,2 @@
-# sp2015
-Github pages for spring 2015
+# sp2016
+Github pages for spring 2016
