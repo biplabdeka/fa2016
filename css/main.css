@@ -4019,3 +4019,9 @@ ul {
 
 .topic {
   font-weight: 600; }
+
+.demystified-images {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20% }
