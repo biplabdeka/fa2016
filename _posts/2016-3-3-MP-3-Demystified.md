@@ -25,7 +25,7 @@ This is the initial declaration of our app and everything we do will be modifyin
 The accompanying HTML inserts the name we declared (myFirstAngularApp) into the HTML markup.
 
 ~~~html
-<body ng-app="mp3">
+<body ng-app="myFirstAngularApp">
 ~~~
 
 Usually, the ng-app directive is placed in the body or html tag of the page so that it can encompass all of the HTML markup.
