@@ -47,7 +47,7 @@ Here is the accompanying HTML:
 
 ~~~
 <div ng-controller="myFirstController">
-\{\{myFirstVariable\}\}
+{ { myFirstVariable } }
 </div>
 ~~~
 
