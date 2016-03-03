@@ -50,13 +50,13 @@ Here is the accompanying HTML:
 </div>
 ~~~
 
-The location of the ng-controller directive should be based in the topmost HTML tag you want the controller to encompass. i.e. in the example above, the controller will encompass and cover everything inside the div. The {{ }} notation takes any variables that are attached to the $scope object and you can display them in the HTML markup.
+The location of the ng-controller directive should be based in the topmost HTML tag you want the controller to encompass. i.e. in the example above, the controller will encompass and cover everything inside the div. The `{{ }}` notation takes any variables that are attached to the $scope object and you can display them in the HTML markup.
 
 NOTE: the ng-controller directive will be superfluous when we get to routing.
 
 <span class="section-heading">$http<span>
 
-When working with this MP, you'll need to retrieve some data in a JSON format. Thankfully, we have already crawled the data for you, and it should be located in the public/data folder. Inside your controller, you can use the $http Angular variable to get that data:
+When working with this MP, you'll need to retrieve some data in a JSON format. Thankfully, we have already crawled the data for you, and it should be located in the `public/data` folder. Inside your controller, you can use the $http Angular variable to get that data:
 
 ~~~
 $http.get('/someUrl').
@@ -69,13 +69,13 @@ $http.get('/someUrl').
 
 <span class="section-heading">ngRoute<span>
 
-Now, we will have three separate views in this application. To manage those views with routes, Angular can make setup very easy. In the index.html, you'll have this line:
+Now, we will have three separate views in this application. To manage those views with routes, Angular can make setup very easy. In the `index.html`, you'll have this line:
 
 ~~~
 <div ng-view></div>
 ~~~
-
-In short, whenever we request a particular partial from our /partial folder, Angular will take that partial's html and put inside this div and keep replacing it depending on the route requested. Your partials can be written as regular divs without anything extra.
+<br>
+In short, whenever we request a particular partial from our `/partial` folder, Angular will take that partial's html and put inside this div and keep replacing it depending on the route requested. Your partials can be written as regular divs without anything extra.
 
 Now to the JS:
 
@@ -92,9 +92,8 @@ app.config(function ($routeProvider) {
 })
 ~~~
 
-This code allows you define a route name with "/" and then matches a partial and a controller with that route name. This means you don't need to explicitly declare the ng-controller in the HTML markup too in these partials since this takes care of it for us.
+This code allows you define a route name with `\` and then matches a partial and a controller with that route name. This means you don't need to explicitly declare the `ng-controller` in the HTML markup too in these partials since this takes care of it for us.
 
 <span class="section-heading">Closing<span>
 
 That should be enough to get you started! Be sure to refer to the spec whenever you need help in a particular area and keep checking up on the Angular documentation whenever you need it.
-
