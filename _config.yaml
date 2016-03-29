@@ -1,7 +1,5 @@
 name: "CS498rk: Art and Science of Web Programming, Spring 2016"
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables", "strikethrough"]
+markdown: kramdown
 baseurl: /sp2016
 highlighter: pygments
 permalink: "/:title"

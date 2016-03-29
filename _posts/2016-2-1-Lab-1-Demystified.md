@@ -105,3 +105,5 @@ Time for a moment of déjà vu. **Do not work AT ALL in the ```public/js``` fold
 We hope that clarifies things for you. As the MP approaches the deadline, we suggest that you sketch out the design and features of your website on a piece of paper, so that you have a sense of how your MP1 design is going to look. Be mindful of the tips and rules for the MP and tutorials on how to code in web technologies in pinned Piazza posts.
 
 Good luck!
+
+*Note: If anyone would like to help improve or modify parts of this article, feel free to send the staff a pull request on our [github](https://github.com/uiuc-web-programming/sp2016)*
