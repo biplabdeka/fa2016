@@ -68,7 +68,21 @@ To do this, we need to define simple schemas (like User) that define our data, a
 
 <img src="http://mean.io/system/assets/img/logos/express.png" class="demystified-images">
 
-Express takes care of part (2) from above. It will create endpoints that anybody can call and grab data from. Don’t worry about the nuts and bolts about how Express works. Just know that you create some Javscript functions (what happens in these functions is up to you) and define some endpoints (GET, POST, etc.), and Express will take care of hooking everything together. I won't put any code here because there are hundreds of examples online that you can reference. The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
+Express takes care of part (2) from above. It will create endpoints that anybody can call and grab data from. Don’t worry about the nuts and bolts about how Express works. Just know that you create some Javscript functions (what happens in these functions is up to you) and define some endpoints (GET, POST, etc.), and Express will take care of hooking everything together. For example, creating a simple route looks something like this:
+
+~~~
+var router = express.Router(); // declare at top of file
+
+//Llama route
+var llamaRoute = router.route('/llamas');
+
+llamaRoute.get(function(req, res) {
+  res.json([{ "name": "alice", "height": 12 }, { "name": "jane", "height": 13 }]);
+});
+
+~~~
+
+ The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
 
 <span class="section-heading">Wrap Up</span>
 
