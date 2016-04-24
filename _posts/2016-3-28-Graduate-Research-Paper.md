@@ -4,7 +4,7 @@ title: "Graduate (4-Credit) Research Paper"
 due: April 25 2016, 11.59PM CST
 <!-- permalink: lab1.html -->
 ---
-Due Date - April 25th, 2016 at 11.59PM CST
+Due Date - April 28th, 2016 at 11.59PM CST
 
 <!-- ###Overview -->
 <span class="section-heading">OVERVIEW</span>
