@@ -4,17 +4,12 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-     {% unless post.draft %}
+     <!-- {% unless post.draft %} -->
 
     <article class="post">
 
-      <div class="heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      <div class="heading"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
 
-<!--       <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
     </article>
       {% endunless %}
 
