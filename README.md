@@ -1,2 +1,2 @@
-# sp2016
-Github pages for spring 2016
+# fa2016
+Github pages for fall 2016
