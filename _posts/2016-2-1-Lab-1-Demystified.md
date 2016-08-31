@@ -4,7 +4,7 @@ title: "Lab 1: Demystified"
 <!-- permalink: lab1.html -->
 ---
 
-The [first lab](https://uiuc-web-programming.github.io/fa2016/Lab-1) required you to go through a variety of steps and processes to get you ready for MP1. But you might be asking, “_why did we do all of those things?_” Well, I'm glad you asked, handsome stranger.
+The [first lab](https://uiuc-web-programming.github.io/fa2016/Lab-1g) required you to go through a variety of steps and processes to get you ready for MP1. But you might be asking, “_why did we do all of those things?_” Well, I'm glad you asked, handsome stranger.
 
 First of all, let's define a stack. From Webopedia:
 
