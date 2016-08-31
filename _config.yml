@@ -3,5 +3,5 @@ markdown: kramdown
 redcarpet:
   extensions: ["tables", "strikethrough"]
 baseurl: /fa2016
-highlighter: pygments
+highlighter: rouge
 permalink: "/:title"
