@@ -4,7 +4,7 @@ title: "Lab 2: Demystified"
 <!— permalink: lab2.html -->
 ---
 
-The [second lab](http://uiuc-web-programming.github.io/fa2016/Lab-2/) is having you use Foundation, which may seem scary, since it's a wealth of information and resources to use, but we're here to help break it down for you.
+The [second lab](http://uiuc-web-programming.github.io/fa2016/Lab-2) is having you use Foundation, which may seem scary, since it's a wealth of information and resources to use, but we're here to help break it down for you.
 
 **Why Foundation?**
 
