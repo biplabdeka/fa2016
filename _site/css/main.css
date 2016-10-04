@@ -3879,7 +3879,8 @@ ul {
   color: #144057;
   font-family: "Maven Pro", sans-serif;
   font-size: 18px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-decoration: underline; }
 
 .week-heading {
   margin-top: 60px;
