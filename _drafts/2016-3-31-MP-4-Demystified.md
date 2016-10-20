@@ -97,7 +97,10 @@ In some other file, we've instantiated our router instance. We require the modul
     app.use('/api', require('./llama.js')(router));
 ~~~
 
-Our endpoint can now be reached at ~~~ /api/llamas ~~~.
+Our endpoint can now be reached at: 
+~~~
+/api/llamas
+~~~
 
  The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
  The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
