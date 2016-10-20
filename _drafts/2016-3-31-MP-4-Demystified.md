@@ -66,22 +66,40 @@ To do this, we need to define simple schemas (like User) that define our data, a
 
 **Express**
 
-<img src="http://mean.io/system/assets/img/logos/express.png" class="demystified-images">
+<img src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" class="demystified-images">
 
 Express takes care of part (2) from above. It will create endpoints that anybody can call and grab data from. Don’t worry about the nuts and bolts about how Express works. Just know that you create some Javscript functions (what happens in these functions is up to you) and define some endpoints (GET, POST, etc.), and Express will take care of hooking everything together. For example, creating a simple route looks something like this:
 
-~~~
-var router = express.Router(); // declare at top of file
-
-//Llama route
-var llamaRoute = router.route('/llamas');
-
-llamaRoute.get(function(req, res) {
-  res.json([{ "name": "alice", "height": 12 }, { "name": "jane", "height": 13 }]);
-});
+We define a new endpoint in separate module.
 
 ~~~
+// llama.js
+module.exports = function(router) {
+    //Llama route
+    var llamaRoute = router.route('/llamas');
 
+    llamaRoute.get(function(req, res) {
+      res.json([{ "name": "alice", "height": 12 }, { "name": "jane", "height": 13 }]);
+    });
+
+    return router;
+}
+~~~
+
+In some other file, we've instantiated our router instance. We require the module where we've defined our logic for our endpoint. We pass our router instance as an argument to that module. 
+
+~~~
+    // server.js
+    var express = require('express');
+    var router = express.Router();
+    
+    // tell our app to use this route
+    app.use('/api', require('./llama.js')(router));
+~~~
+
+Our endpoint can now be reached at ~~~ /api/llamas ~~~.
+
+ The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
  The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
 
 <span class="section-heading">Wrap Up</span>
