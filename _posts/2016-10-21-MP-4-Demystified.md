@@ -4,7 +4,7 @@ title: "MP 4 Demystified"
 <!— permalink: lab1.html -->
 ---
 
-In <a href="http://uiuc-web-programming.github.io/sp2016/MP-4" target="_blank">MP4</a>, we are asking you to do two things: create a RESTful API and consume it with a front-end. Hopefully in the next page or so, I’ll clear up some confusion around what goes into creating/consuming an API, and how the technologies we’re using help us do this.
+In <a href="https://uiuc-web-programming.github.io/fa2016/MP-4-1" target="_blank">MP 4.1</a> and <a href="https://uiuc-web-programming.github.io/fa2016/MP-4-2" target="_blank">MP 4.2</a> , we are asking you to do two things: create a RESTful API and consume it with a front-end. Hopefully in the next page or so, I’ll clear up some confusion around what goes into creating/consuming an API, and how the technologies we’re using help us do this.
 
 Just a quick note before we dive into the details, this blog post will be split into two parts: High Level Thinking and Technologies. The high level will explain the overall thinking behind this MP, and the technologies will talk about the specifics behind the frameworks & libraries we are using.
 
@@ -20,7 +20,7 @@ Think of this MP as 3 layers interacting with each other: <b>the layer that hold
 
 <img style="height: 100px; width: auto" class="demystified-images" src="http://findicons.com/files/icons/346/sweet/128/cake1.png">
 
-You could think of these layers as stacks of cake! This is sort of where the term “Full-stack Developer” comes from — a person who works with both the back-end and front-end, and ensures they work together perfectly. The official definition of a "stack" was discussed in <a href="http://uiuc-web-programming.github.io/sp2016/Lab-1-Demystified" target="_blank">Lab 1 Demystified</a> by Sujay.
+You could think of these layers as stacks of cake! This is sort of where the term “Full-stack Developer” comes from — a person who works with both the back-end and front-end, and ensures they work together perfectly. The official definition of a "stack" was discussed in <a href="http://uiuc-web-programming.github.io/fa2016/Lab-1-Demystified" target="_blank">Lab 1 Demystified</a> by Sujay.
 
 <span class="section-heading">Technologies</span>
 
@@ -35,13 +35,13 @@ First, what we already know:
 
 <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/07/1436439824nodejs-logo.png" class="demystified-images">
 
-We already talked about this. Node is basically JS outside of the browser. For more see <a target="_blank" href="http://uiuc-web-programming.github.io/sp2016/Lab-1-Demystified">here</a>.
+We already talked about this. Node is basically JS outside of the browser. For more see <a target="_blank" href="http://uiuc-web-programming.github.io/fa2016/Lab-1-Demystified">here</a>.
 
 **AngularJS**
 
 <img style="width: 100px;" src="https://camo.githubusercontent.com/6795c053f2fafee4d1c76f3a181876013827dd5e/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333437303430322f313230383630372f32376637643134322d323564362d313165332d386330372d6139316532633736396435322e706e67" class="demystified-images">
 
-This is Layer 3. You should already be familiar with this from working on MP3. We are asking you to do something very similar for MP4. See <a target="_blank" href="http://uiuc-web-programming.github.io/sp2016/MP-3-Demystified">here</a> if you want to read more about Angular.
+This is Layer 3. You should already be familiar with this from working on MP3. We are asking you to do something very similar for MP4. See <a target="_blank" href="http://uiuc-web-programming.github.io/fa2016/MP-3-Demystified">here</a> if you want to read more about Angular.
 
 Now to the unfamiliar. Remember with these last two technologies, we want to be able to fill in Layers 1 and 2. More specifically, we want some way of (1) pulling data from a database and then (2) making that data available over HTTP.
 
@@ -89,18 +89,15 @@ module.exports = function(router) {
 In some other file, we've instantiated our router instance. We require the module where we've defined our logic for our endpoint. We pass our router instance as an argument to that module. 
 
 ~~~
-    // server.js
-    var express = require('express');
-    var router = express.Router();
-    
-    // tell our app to use this route
-    app.use('/api', require('./llama.js')(router));
+// server.js
+var express = require('express');
+var router = express.Router();
+
+// tell our app to use this route
+app.use('/api', require('./llama.js')(router));
 ~~~
 
-Our endpoint can now be reached at: 
-~~~
-/api/llamas
-~~~
+Our endpoint can now be reached at: /api/llamas
 
  The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
  The docs are <a href="http://expressjs.com/en/api.html" target="_blank">here</a>.
